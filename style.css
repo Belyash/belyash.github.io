@@ -1,0 +1,98 @@
+html {
+    color: #555555;
+    font: normal 16px/20px Arial, san-serif;
+}
+body {
+    background: #efefef;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+a {
+    border-bottom: 0.1em solid rgba(0,170,238,0.7);
+    color: #00aaee;
+    text-decoration: none;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+a:hover {
+    border-color: #ff8a00;
+    color: #ff8a00;
+}
+dl {
+    margin: 0;
+}
+dt {
+    font: normal 1.2em 'Arvo';
+    margin: 0 0 10px;
+}
+dt .gray {
+    color: #999999;
+    font-family: Arial, san-serif;
+    font-size: 0.8em;
+}
+.wrapper {
+    background: #fefefe;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.4);
+    margin: 30px auto;
+    max-width: 980px;
+    padding: 30px;
+}
+.header {
+    border-bottom: 1px solid #ebebeb;
+    text-align: center;
+}
+.header h1 {
+    font-size: 3em;
+    font-family: 'Arvo';
+    line-height: 1em;
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+.header h1:before,
+.header h1:after {
+    content: '\2605\2605\2605';
+    font-size: 0.5em;
+}
+.header h2 {
+    color: #666666;
+    font-family: 'Arvo';
+    line-height: 1em;
+    text-transform: uppercase;
+}
+.content {
+
+}
+.footer {
+
+}
+.article {
+    margin: 30px 0;
+    overflow: hidden;
+}
+.article hgroup {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    padding: 0 20px 0 0;
+    text-align: right;
+    width: 30%;
+}
+.article h3 {
+    font: normal 2em 'Arvo', serif;
+}
+.article h4 {
+    color: #00aaee;
+    font-weight: normal;
+}
+.article__content {
+    border-left: 1px solid #ebebeb;
+    margin-left: 30%;
+    padding-left: 20px;
+}
