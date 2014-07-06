@@ -1,6 +1,6 @@
 html {
     color: #555555;
-    font: normal 16px/20px Arial, san-serif;
+    font: normal 16px/20px 'Arvo', Arial, san-serif;
 }
 body {
     background: #efefef;
@@ -22,8 +22,8 @@ a:hover {
     border-color: #ff8a00;
     color: #ff8a00;
 }
-dl {
-    margin: 0;
+p, dl {
+    margin: 1em 0;
 }
 dt {
     font: normal 1.2em 'Arvo';
@@ -114,6 +114,14 @@ dt .gray {
 .fa-wordpress {
     color: #1E8CBE
 }
+.russia {
+    font-weight: bold;
+}
+.russia:before,
+.russia:after {
+    color: #ff3703;
+    content: "\2605";
+}
 .content {
 
 }
@@ -145,4 +153,21 @@ dt .gray {
     border-left: 1px solid #ebebeb;
     margin-left: 30%;
     padding-left: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .header h1:before, .header h1:after {
+        display: block;
+    }
+    .article hgroup {
+        float: none;
+        padding: 0 0 10px;
+        text-align: left;
+        width: auto;
+    }
+    .article__content {
+        border-top: 1px solid #EBEBEB;
+        border-left: 0;
+        margin-left: 0;
+    }
 }
