@@ -64,6 +64,56 @@ dt .gray {
     line-height: 1em;
     text-transform: uppercase;
 }
+.social {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 30px;
+    overflow: hidden;
+}
+.social li {
+    display: inline-block;
+}
+.social a {
+    border: 0;
+    display: inline-block;
+    position: relative;
+    width: 30px;
+}
+.social a .title {
+    color: #666666;
+    left: 50%;
+    line-height: 30px;
+    opacity: 0;
+    position: absolute;
+    margin: 0 0 0 -50px;
+    top: 200%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    white-space: nowrap;
+    width: 100px;
+}
+.social a:hover .title {
+    opacity: 1;
+    top: 100%;
+}
+.social .fa {
+    font-size: 30px;
+}
+.fa-github {
+    color: #333333;
+}
+.fa-facebook {
+    color: #4C66A4;
+}
+.fa-twitter {
+    color: #55ACEE;
+}
+.fa-wordpress {
+    color: #1E8CBE
+}
 .content {
 
 }
